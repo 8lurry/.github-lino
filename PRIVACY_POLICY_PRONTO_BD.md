@@ -1,6 +1,6 @@
 # Privacy Policy for Pronto BD
 
-**Last updated:** 2026-03-17
+**Last updated:** 2026-05-08
 
 This Privacy Policy describes how Pronto BD processes personal data when used through the web application and Android app.
 
@@ -34,7 +34,9 @@ Depending on configuration and usage, Pronto may process:
 
 - account/profile data (name, username, email, language)
 - business/transaction data entered by users
+- fine-grained company location data (such as precise coordinates/map points) when provided or captured in enabled workflows
 - product images and uploaded files
+- trade license documents and verification supporting files (for supplier account verification)
 - session and authentication metadata
 - device/app metadata required for mobile operations
 - push notification token data (when enabled)
@@ -71,6 +73,9 @@ Data processing is used to:
 
 - provide and operate the service
 - execute requested workflows
+- enable location-aware company workflows and familiarity-based service usability features
+- verify supplier business legitimacy through trade license documents
+- process and validate account creation approvals by suppliers
 - maintain security and prevent abuse/fraud
 - deliver operational communications
 
@@ -83,15 +88,20 @@ Pronto does not sell personal data.
 Data may be shared only with:
 
 - authorized users/admins in the relevant deployment scope
+- other companies within configured ByFamiliarity scope when location-sharing features are enabled
 - infrastructure/hosting processors
 - notification processors (e.g., FCM) when enabled
 - authorities when legally required
+
+Location sharing is limited to configured access rules and enabled business workflows.
 
 ## 9) Retention and deletion limits
 
 Retention depends on legal duties, organizational policy, and system configuration.
 
-Even after deletion/forget requests, some records may be retained where required for legal, accounting, audit, fraud-prevention, or integrity reasons (for example invoices, vouchers, ledger movements, approvals/registrations, and traceability links).
+Trade license documents and verification files uploaded by suppliers are retained for verification and compliance purposes. These documents are used exclusively for validating business legitimacy and regulatory compliance and are not used for any other purpose.
+
+Even after deletion/forget requests, some records may be retained where required for legal, accounting, audit, fraud-prevention, compliance, or integrity reasons (for example invoices, vouchers, ledger movements, approvals/registrations, verification documents, account approval history, and traceability links).
 
 ## 10) Security
 
